@@ -343,7 +343,7 @@ button { font: inherit; color: inherit; }
 .lb-prev { left: 12px; } .lb-next { right: 12px; }
 .lb-info { padding: 28px 24px; display: flex; flex-direction: column; gap: 12px; overflow-y: auto; border-left: 1px solid var(--line); }
 .lb-meta { padding-right: 40px; display: flex; justify-content: space-between; gap: 8px; font: 500 11.5px var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--amber); }
-.lb-count { color: var(--dim); }
+.lb-count { color: var(--dim); white-space: nowrap; }
 .lb-title { font-size: 21px; line-height: 1.25; }
 .lb-caption { color: var(--muted); font-size: 15px; }
 .lb-tags { margin-top: 4px; }
